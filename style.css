@@ -1,0 +1,162 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+   font-family: 'Kreon', serif;
+   margin: 0;
+   padding: 0;
+ }
+
+section {
+  padding: 10px 15px;
+  color: darkslategrey;
+}
+
+header {
+  background-image: url(file:///Users/leila/Documents/LLC%20Website/photos/test5.jpg);
+  height: 250px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+
+}
+
+img {
+  float: center;
+  width: 24%;
+  max-height:300px;
+  max-width: 300px;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: darkgrey;
+  color: white;
+  height: 40px;
+  text-align: right;
+  line-height: 10px;
+  padding-right: 15px;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* LINKS, HEADERS, PARAGRAPH */
+
+a {
+  color:inherit;
+}
+
+a:hover{
+  color: darkblue;
+}
+
+h1, h2 {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-weight: normal; /* removes default bold style */
+  color: white;
+}
+
+header h1 {
+  font-size: 50px;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  font-weight: normal; /* removes default bold style */
+}
+
+p {
+  color: darkslategrey;
+}
+
+/* HOME PAGE SECTIONS */
+
+.about{
+  padding: 2px;
+  display: flex;
+  margin: 0px;
+
+}
+
+.trending {
+  background-color: mistyrose;
+  padding: 50px;
+}
+
+.bucketlist {
+  background-color: white;
+  padding: 50px;
+}
+
+.instagram {
+  background-color: lemonchiffon;
+  margin-bottom: 40px;
+  padding: 50px;
+}
+
+/* AYCE PAGE */
+
+.review1 {
+  background-color: mistyrose;
+  padding: 75px;
+}
+
+.review2 {
+  background-color: whitesmoke;
+  padding: 75px;
+}
+
+/* RESPONSIVE ELEMENTS */
+
+@media(max-width: 480px) {
+  .about-container {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .about-container img {
+    width: 100%;
+  }
+
+  header {
+    height: 150px;
+
+  }
+
+  header h1 {
+    font-size: 25px;
+  }
+}
+
+/*
+font-family: 'Roboto', sans-serif;
+
+font-family: 'Roboto Condensed', sans-serif;
+
+font-family: 'Playfair Display', serif;
+
+font-family: 'Satisfy', cursive;
+
+font-family: 'Voltaire', sans-serif;
+
+font-family: 'Handlee', cursive;
+
+font-family: 'Kreon', serif;

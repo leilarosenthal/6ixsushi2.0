@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300|Roboto+Condensed:400,300|Playfair+Display|Satisfy|Voltaire|Handlee|Kreon:400,300' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <link $(".dropdown-button").dropdown();>
+    <script src="myFunction.js"></script>
+
 
     <!-- Magnific Popup core CSS file -->
        <link rel="stylesheet" href="js/magnific-popup.css">
@@ -14,25 +17,46 @@
        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <!-- Magnific Popup core JS file -->
        <script src="js/jquery.magnific-popup.min.js"></script>
+
   </head>
 
   <body>
 
+    <!-- drop down structure -->
+
+    <ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Eats</a>
+    <div class="dropdown-content">
+      <a href="ayce.html">AYCE</a>
+      <a href="sitdown.html">Sit Down</a>
+      <a href="upscale.html">Upscale</a>
+      <a href="takeout.html">Take Out</a>
+    </div>
+  </li>
+</ul>
+
+
+
     <header>
 
-                <h1>6ixSushi: A Guide to Toronto's Sushi</h1>
+        <h1>6ixSushi: A Guide to Toronto's Sushi</h1>
 
     </header>
 
     <section class="about">
-      <center>
+
         <div class="about-container">
+
           <a href="ayce.html"><img src="photos/ayce-background.jpg"></a>
-          <img src="photos/sitdown-image.jpg">
-          <img src="photos/upscale-image.jpg">
-          <img src="photos/takeout-image.jpg">
+          <a href="sitdown.html"><img src="photos/sitdown-image.jpg"></a>
+          <a href="upscale.html"><img src="photos/upscale-image.jpg"></a>
+          <a href="takeout.html"><img src="photos/takeout-image.jpg"></a>
+
         </div>
-    </center>
+
     </section>
 
     <section class="trending">
@@ -63,6 +87,8 @@
       <p>Fushimi</p>
       <p>Sushi on Bloor</p>
       <p>Wow Sushi</p>
+
+
     </section>
 
     <section class="instagram">
